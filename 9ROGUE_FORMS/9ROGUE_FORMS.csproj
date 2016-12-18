@@ -34,7 +34,7 @@
   <ItemGroup>
     <Reference Include="MdxConsole, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\Egor\Desktop\MdxConsole\MdxConsole\MdxConsole\bin\Debug\MdxConsole.dll</HintPath>
+      <HintPath>MdxConsole\MdxConsole.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Build.Utilities" />
     <Reference Include="Microsoft.Build.Utilities.v3.5" />
@@ -127,6 +127,12 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="MdxConsole\MdxConsole.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
